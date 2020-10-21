@@ -1,0 +1,11 @@
+{
+  "name": "@gimli01/ddd-ts",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
