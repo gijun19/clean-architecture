@@ -1,6 +1,6 @@
 {
   "hooks": {
     "pre-commit": "eslint src/**/*.ts -c ./.eslintrc --fix --quiet",
-    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -V"
   }
 }
