@@ -1,0 +1,23 @@
+{
+  "name": "ca-core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Daniel Park <daniel.park@endevors.io>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ca-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
