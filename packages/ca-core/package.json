@@ -1,11 +1,11 @@
 {
-  "name": "ca-core",
+  "name": "@gimli01/ca-core",
   "version": "1.0.0",
   "description": "",
   "author": "Daniel Park <daniel.park@endevors.io>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/ca-core.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,7 +19,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "lint": "eslint -c ./.eslintrc './src/**/*.{js,ts}' --quiet --fix"
+    "lint": "eslint -c ./.eslintrc './src/**/*.{js,ts}' --quiet --fix",
+    "clean": "rm -rf ./lib",
+    "build": "tsc -p ./tsconfig.json"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.5.0",
@@ -34,6 +36,7 @@
   },
   "dependencies": {
     "@types/uuid": "^8.3.0",
+    "shallow-equal": "^1.2.1",
     "shallow-equal-object": "^1.1.1",
     "uuid": "^8.3.1"
   }

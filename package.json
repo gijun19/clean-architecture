@@ -6,8 +6,12 @@
     "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
   },
   "scripts": {
-    "lint": "lerna run lint",
-    "lint-commit": "commitlint -e $GIT_PARAMS -V"
+    "build:all": "lerna run build",
+    "build:ca-core": "lerna run build --scope @gimli01/ca-core",
+    "clean:all": "lerna run clean",
+    "clean:ca-core": "lerna run clean --scope @gimli01/ca-core",
+    "lint:all": "lerna run lint",
+    "lint:commit": "commitlint -e $GIT_PARAMS -V"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

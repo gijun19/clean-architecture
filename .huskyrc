@@ -1,6 +1,6 @@
 {
   "hooks": {
-    "pre-commit": "yarn run lint",
-    "commit-msg": "yarn run lint-commit"
+    "pre-commit": "yarn run lint:all",
+    "commit-msg": "yarn run lint:commit"
   }
 }
