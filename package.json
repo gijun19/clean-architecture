@@ -5,6 +5,7 @@
     "type": "git",
     "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
   },
+  "homepage": "https://github.com/gimli01/clean-architecture",
   "scripts": {
     "build:all": "lerna run build",
     "build:ca-core": "lerna run build --scope @gimli01/ca-core",

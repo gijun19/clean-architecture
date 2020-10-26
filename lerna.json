@@ -3,13 +3,23 @@
   "version": "independent",
   "npmClient": "yarn",
   "command": {
-    "publish": {
-      "ignoreChanges": ["ignored-file", "*.md"],
-      "message": "chore(release): publish",
-      "registry": "https://npm.pkg.github.com"
+    "create": {
+      "homepage": "https://github.com/gimli01/clean-architecture",
+      "license": "MIT"
+    },
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "chore(release): %s"
     },
     "bootstrap": {
       "npmClientArgs": ["--no-package-lock"]
     }
-  }
+  },
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md"
+  ]
 }
