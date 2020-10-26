@@ -9,8 +9,10 @@
   "scripts": {
     "build:all": "lerna run build",
     "build:ca-core": "lerna run build --scope @gimli01/ca-core",
+    "build:eslint-config": "lerna run build --scope @gimli01/eslint-config",
     "clean:all": "lerna run clean",
     "clean:ca-core": "lerna run clean --scope @gimli01/ca-core",
+    "clean:eslint-config": "lerna run clean --scope @gimli01/eslint-config",
     "lint:all": "lerna run lint",
     "lint:commit": "commitlint -e $GIT_PARAMS -V"
   },

@@ -1,0 +1,45 @@
+{
+  "name": "@gimli01/eslint-config",
+  "version": "0.1.0",
+  "description": "A simple, shareable ESLint configuration for NodeJS and TypeScript.",
+  "author": "Daniel Park <daniel.park@endevors.io>",
+  "homepage": "https://github.com/gimli01/clean-architecture/tree/master/packages/eslint-config#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "clean": "rm -rf ./lib",
+    "lint": "eslint -c ./.eslintrc './src/**/*.{js,ts}' --quiet --fix",
+    "prepack": "yarn run clean && yarn run build",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-prettier": "^3.1.4"
+  },
+  "peerDependencies": {
+    "eslint": "^7.12.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

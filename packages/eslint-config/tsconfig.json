@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "lib": ["es2019", "es2020.bigint", "es2020.string", "es2020.symbol.wellknown"],
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "outDir": "lib",
+    "inlineSourceMap": true,
+    "strict": true,
+    "target": "es2019",
+    "typeRoots": ["node_modules/@types", "src/typings"],
+  },
+  "exclude": [
+    "node_modules",
+    "**/lib",
+    "**/__tests__"
+  ]
+}
