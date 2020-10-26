@@ -1,6 +1,6 @@
 {
   "name": "@gimli01/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0-alpha.0",
   "description": "A simple, shareable ESLint configuration for NodeJS and TypeScript.",
   "author": "Daniel Park <daniel.park@endevors.io>",
   "homepage": "https://github.com/gimli01/clean-architecture/tree/master/packages/eslint-config#readme",
