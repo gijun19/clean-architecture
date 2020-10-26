@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.5](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.4...@gimli01/ca-core@1.0.0-alpha.5) (2020-10-26)
+
+
+### Features
+
+* restructure lib ([f21343f](https://github.com-gimli01/gimli01/clean-architecture/commit/f21343f537373e87f1718719490c4d90d47d88cb))
+
+
+
+
+
 # [1.0.0-alpha.4](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.3...@gimli01/ca-core@1.0.0-alpha.4) (2020-10-26)
 
 **Note:** Version bump only for package @gimli01/ca-core
