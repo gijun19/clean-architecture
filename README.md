@@ -4,18 +4,27 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![downloads](https://img.shields.io/github/downloads/gimli01/clean-architecture/total)
 
-> Official mono-repository for modules related to Clean Architecture for NodeJS services with TypeScript support.
+> Official powerhouse mono-repository for an improved development experience influenced by Clean Architecture design principles. For usage within TypeScript/NodeJS applications.
+> > *"I'm a programmer. I like programming. And the best way I've found to have a positive impact on code is to write it." ― Robert C. Martin, Clean Architecture*
+
+This is an open-source project, meaning help and PR's are welcome! 🙏
 
 **⭐️'s are appreciated!**
 
-## Information
+## Overview
 
-TODO: information section
+**IMPORTANT!!** 🚨
 
-## Packages
+This repository is a **WIP** (work in progress). This means published packages are all `alpha` level builds and should be used *carefully*. If you plan on using this library, keep in mind that published packages **CAN** contain issues.
 
-TODO: packages section
+If you come across a bug or an idea for an enhancement please create an issue.
+
+HAPPY HACKING ✌️🙏
+
+## Contents
+
+WIP
 
 ## FAQ
 
-TODO: FAQ section
+WIP
