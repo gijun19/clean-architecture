@@ -1,5 +1,7 @@
-export { Entity } from "./Entity";
-export { Identifier } from "./Identifier";
-export { UniqueEntityId } from "./UniqueEntityId";
-export { ValueObj } from "./ValueObj";
-export { WatchedList } from "./WatchedList";
+import { Entity } from "./Entity";
+import { Identifier } from "./Identifier";
+import { UniqueEntityId } from "./UniqueEntityId";
+import { ValueObj } from "./ValueObj";
+import { WatchedList } from "./WatchedList";
+
+export { Entity, Identifier, UniqueEntityId, ValueObj, WatchedList };
