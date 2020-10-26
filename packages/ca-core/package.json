@@ -40,5 +40,8 @@
     "shallow-equal": "^1.2.1",
     "shallow-equal-object": "^1.1.1",
     "uuid": "^8.3.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
