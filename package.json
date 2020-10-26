@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@github.com-gimli01:gimli01/clean-architecture.git"
+    "url": "git@github.com:gimli01/clean-architecture.git"
   },
   "homepage": "https://github.com/gimli01/clean-architecture",
   "scripts": {
