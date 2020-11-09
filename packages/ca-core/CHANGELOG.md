@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.6](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.5...@gimli01/ca-core@1.0.0-alpha.6) (2020-11-09)
+
+
+### Features
+
+* **ca-core:** update base mapper and repo classes ([da23b9d](https://github.com-gimli01/gimli01/clean-architecture/commit/da23b9defdb80b93d950cb362097aa123dc99606))
+
+
+
+
+
 # [1.0.0-alpha.5](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.4...@gimli01/ca-core@1.0.0-alpha.5) (2020-10-26)
 
 
