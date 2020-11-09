@@ -7,7 +7,7 @@ import {
   WatchedList,
 } from "./domain";
 import { BaseRepo } from "./infra/BaseRepo";
-import { Mapper } from "./infra/Mapper";
+import { BaseMapper } from "./infra/BaseMapper";
 import { BaseController } from "./interfaces/BaseController";
 import { AppError } from "./logic/AppError";
 import { Result } from "./logic/Result";
@@ -39,7 +39,7 @@ const Domain = {
 
 const Infra = {
   BaseRepo,
-  Mapper,
+  BaseMapper,
 };
 
 const Interfaces = {
