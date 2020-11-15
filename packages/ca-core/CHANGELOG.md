@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.11](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.10...@gimli01/ca-core@1.0.0-alpha.11) (2020-11-15)
+
+
+### Features
+
+* make uuid public ([c8d987b](https://github.com-gimli01/gimli01/clean-architecture/commit/c8d987bdad6de3048f0a5e36fbb865b575c1761c))
+
+
+
+
+
 # [1.0.0-alpha.10](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.9...@gimli01/ca-core@1.0.0-alpha.10) (2020-11-15)
 
 
