@@ -1,11 +1,5 @@
 import { UseCase } from "./@types/UseCase";
-import {
-  Entity,
-  Identifier,
-  UniqueEntityId,
-  ValueObj,
-  WatchedList,
-} from "./domain";
+import { Entity, UniqueEntityId, ValueObj, WatchedList } from "./domain";
 import { BaseRepo } from "./infra/BaseRepo";
 import { BaseMapper } from "./infra/BaseMapper";
 import { BaseController } from "./interfaces/BaseController";
@@ -31,7 +25,6 @@ export {
  */
 const Domain = {
   Entity,
-  Identifier,
   UniqueEntityId,
   ValueObj,
   WatchedList,
