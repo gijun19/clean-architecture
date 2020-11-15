@@ -5,7 +5,7 @@ const isEntity = (v: Entity<any>): v is Entity<any> => {
 };
 
 export abstract class Entity<T> {
-  protected readonly uuid: UniqueEntityId;
+  public readonly uuid: UniqueEntityId;
   public readonly props: T;
 
   constructor(props: T, uuid?: UniqueEntityId) {
