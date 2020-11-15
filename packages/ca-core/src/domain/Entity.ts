@@ -5,8 +5,12 @@ const isEntity = (v: Entity<any>): v is Entity<any> => {
 };
 
 export abstract class Entity<T> {
-  public readonly uuid: UniqueEntityId;
+  protected readonly uuid: UniqueEntityId;
   public readonly props: T;
+
+  get uuidValue(): string {
+    return this.uuid.value;
+  }
 
   constructor(props: T, uuid?: UniqueEntityId) {
     this.uuid = uuid ? uuid : new UniqueEntityId();
