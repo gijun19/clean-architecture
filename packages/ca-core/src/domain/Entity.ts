@@ -1,15 +1,15 @@
 import { UniqueEntityId } from "./UniqueEntityId";
 
-const isEntity = (v: any): v is Entity<any> => {
+const isEntity = (v: Entity<any>): v is Entity<any> => {
   return v instanceof Entity;
 };
 
 export abstract class Entity<T> {
-  protected readonly id: UniqueEntityId<string>;
+  protected readonly uuid: UniqueEntityId;
   public readonly props: T;
 
-  constructor(props: T, id?: UniqueEntityId<string>) {
-    this.id = id ? id : new UniqueEntityId();
+  constructor(props: T, uuid?: UniqueEntityId) {
+    this.uuid = uuid ? uuid : new UniqueEntityId();
     this.props = props;
   }
 
@@ -26,6 +26,6 @@ export abstract class Entity<T> {
       return false;
     }
 
-    return this.id.equals(candidate.id);
+    return this.uuid.equals(candidate.uuid);
   }
 }

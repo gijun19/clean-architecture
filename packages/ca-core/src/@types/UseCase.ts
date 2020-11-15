@@ -1,3 +1,4 @@
-export interface UseCase<UseCasePayload, UseCaseResult> {
-  execute(payload?: UseCasePayload): Promise<UseCaseResult> | UseCaseResult;
+export interface UseCase<T, U> {
+  execute(payload?: T): Promise<U>;
+  execute(payload?: T): U;
 }

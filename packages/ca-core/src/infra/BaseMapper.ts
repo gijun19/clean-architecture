@@ -1,4 +1,4 @@
-export abstract class BaseMapper<DomainEntity, DatabaseModel = any> {
-  protected abstract toDb(entity: DomainEntity): DatabaseModel;
-  protected abstract toDomain(model: DatabaseModel): DomainEntity;
+export abstract class BaseMapper<T, U = any> {
+  protected abstract toPersistence(entity: T): U;
+  protected abstract toDomain(raw: any): T;
 }
