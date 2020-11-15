@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.8](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.7...@gimli01/ca-core@1.0.0-alpha.8) (2020-11-15)
+
+
+### Features
+
+* update UniqueEntityId class ([0bd8878](https://github.com-gimli01/gimli01/clean-architecture/commit/0bd88789025f9cdfbf7f3c53a91f87a1bd9d4c6c))
+
+
+
+
+
 # [1.0.0-alpha.7](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.6...@gimli01/ca-core@1.0.0-alpha.7) (2020-11-09)
 
 
