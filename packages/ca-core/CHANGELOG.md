@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.10](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.9...@gimli01/ca-core@1.0.0-alpha.10) (2020-11-15)
+
+
+### Features
+
+* add property accessor ([32154a9](https://github.com-gimli01/gimli01/clean-architecture/commit/32154a9ab88678b4e4f057d62217aca815a08375))
+* add property accessor ([48d20e2](https://github.com-gimli01/gimli01/clean-architecture/commit/48d20e25fee7c3918f02262dea5752e9e29024d9))
+
+
+
+
+
 # [1.0.0-alpha.9](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.8...@gimli01/ca-core@1.0.0-alpha.9) (2020-11-15)
 
 
