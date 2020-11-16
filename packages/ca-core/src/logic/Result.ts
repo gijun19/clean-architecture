@@ -1,47 +1,44 @@
+export interface ResultProps<T> {
+  isSuccess: boolean;
+  error?: T;
+  value?: T;
+}
+
 export class Result<T> {
   public isSuccess: boolean;
   public isFailure: boolean;
-  public error: T | string;
-  private value: T;
+  public error: T | undefined;
+  public readonly value: T | undefined;
 
-  public constructor(
-    isSuccess: boolean,
-    error: T | string,
-    value?: T | string
-  ) {
+  public constructor(opts: ResultProps<T>) {
+    const { isSuccess, error, value } = opts;
     if (isSuccess && error) {
-      throw new Error(
-        "InvalidOperation: A result cannot be successful and contain an error"
-      );
+      throw new Error("A successful result cannot contain an error message.");
     }
     if (!isSuccess && !error) {
-      throw new Error(
-        "InvalidOperation: A failing result needs to contain an error message"
-      );
+      throw new Error("A failed result must contain an error message.");
     }
 
     this.isSuccess = isSuccess;
     this.isFailure = !isSuccess;
-    this.error = error || "";
-    this.value = (value as unknown) as T;
-  }
 
-  public getValue(): T {
-    if (!this.isSuccess) {
-      throw new Error(
-        "Can't get the value of an error result. Use 'errorValue' instead."
-      );
+    if (error) {
+      this.error = error;
     }
 
-    return this.value;
+    if (value) {
+      this.value = value;
+    }
   }
 
   public static ok<U>(value?: U): Result<U> {
-    return value ? new Result<U>(true, value) : new Result<U>(true, "");
+    return value
+      ? new Result<U>({ isSuccess: true, value })
+      : new Result<U>({ isSuccess: true });
   }
 
-  public static fail<U>(error: string): Result<U> {
-    return new Result<U>(false, error);
+  public static fail<U>(error: U): Result<U> {
+    return new Result<U>({ isSuccess: false, error });
   }
 }
 
