@@ -3,7 +3,7 @@ import { Entity, UniqueEntityId, ValueObj, WatchedList } from "./domain";
 import { BaseRepo } from "./infra/BaseRepo";
 import { BaseMapper } from "./infra/BaseMapper";
 import { BaseController } from "./interfaces/BaseController";
-import { AppError } from "./logic/AppError";
+import * as AppErrors from "./logic/AppError";
 import { Result } from "./logic/Result";
 import { UseCaseError } from "./logic/UseCaseError";
 import { shallowEqualArrays, shallowEqualObjects } from "./util/shallowEqual";
@@ -13,12 +13,13 @@ import { shallowEqualArrays, shallowEqualObjects } from "./util/shallowEqual";
  */
 export {
   UseCase,
-  AppError,
   Result,
   UseCaseError,
   shallowEqualObjects,
   shallowEqualArrays,
 };
+
+export { AppErrors };
 
 /**
  * Export `Domain`, `Infra`, `Interfaces`
