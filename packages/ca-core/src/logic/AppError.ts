@@ -1,19 +1,12 @@
 import { Result } from "./Result";
 import { UseCaseError } from "./UseCaseError";
 
-class UnexpectedError extends Result<UseCaseError> {
-  public constructor(err: any) {
-    super(false, {
-      message: `An unexpected error occurred.`,
-      error: err,
-    } as UseCaseError);
+export class UnexpectedError extends Result<UseCaseError> {
+  public constructor(error: UseCaseError) {
+    super({ isSuccess: false, error });
   }
 
-  public static create(err: any): UnexpectedError {
-    return new UnexpectedError(err);
+  public static create(error: UseCaseError): UnexpectedError {
+    return new UnexpectedError(error);
   }
 }
-
-export const AppError = {
-  UnexpectedError,
-};
