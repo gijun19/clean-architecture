@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.13](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.12...@gimli01/ca-core@1.0.0-alpha.13) (2020-11-16)
+
+
+### Features
+
+* **issue-1:** update UnexpectedError.ts ([b1aba2c](https://github.com-gimli01/gimli01/clean-architecture/commit/b1aba2cf29841ec6625d3c99f7f5e59db5748dc2))
+
+
+
+
+
 # [1.0.0-alpha.12](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.11...@gimli01/ca-core@1.0.0-alpha.12) (2020-11-16)
 
 
