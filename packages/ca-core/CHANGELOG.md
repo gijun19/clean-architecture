@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.14](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.13...@gimli01/ca-core@1.0.0-alpha.14) (2020-11-16)
+
+
+### Features
+
+* **issue-1:** update export for AppErrors ([087ce43](https://github.com-gimli01/gimli01/clean-architecture/commit/087ce43e03d97784bd0618ce49b7e48e59ca1f76))
+
+
+
+
+
 # [1.0.0-alpha.13](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.12...@gimli01/ca-core@1.0.0-alpha.13) (2020-11-16)
 
 
