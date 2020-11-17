@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.15](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.14...@gimli01/ca-core@1.0.0-alpha.15) (2020-11-17)
+
+
+### Features
+
+* **issue-1:** fix UseCase ([382e978](https://github.com-gimli01/gimli01/clean-architecture/commit/382e978ac6174013ae9ac612219633a4affdfbf0))
+
+
+
+
+
 # [1.0.0-alpha.14](https://github.com-gimli01/gimli01/clean-architecture/compare/@gimli01/ca-core@1.0.0-alpha.13...@gimli01/ca-core@1.0.0-alpha.14) (2020-11-16)
 
 
